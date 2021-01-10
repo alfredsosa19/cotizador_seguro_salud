@@ -1,0 +1,108 @@
+.grid_data {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  margin-top: 6rem;
+
+  .grid_letf {
+    color: $colorWhite;
+    margin-top: 3rem;
+    margin-left: 6rem;
+  }
+  .grid_rigth {
+    .div_pasos {
+      display: flex;
+      margin-bottom: 2rem;
+      margin-left: -2.5rem;
+    }
+    .text_pasos {
+      font-size: 0.8rem;
+    }
+    .valid_data {
+      width: 40rem;
+      margin: auto;
+    }
+
+    .title_login {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      color: $colorText;
+    }
+
+    .principal_color {
+      color: $primaryColor;
+      font-weight: 500;
+    }
+
+    .subtitle_login {
+      font-size: 1.2rem;
+      color: $colorText;
+      margin-bottom: 1.2rem;
+    }
+    .form_valid {
+      margin-top: 3rem;
+      .input_dni {
+        width: 100%;
+        display: flex;
+        align-items: center;
+      }
+      .prefix_dni {
+        font-size: 1.4rem;
+        font-weight: 500;
+        border: 2px solid $borderInput;
+        border-right: none;
+        width: 40%;
+        height: 64px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 5px 0 0 5px;
+      }
+      .error_input {
+        width: 100%;
+        text-align: center;
+        color: #721c24;
+        background-color: #f8d7da;
+        padding: 8px;
+        border-color: #f5c6cb;
+        border-radius: 5px;
+        margin-top: 5px;
+      }
+      .div_genero {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        .input_radio {
+          text-align: justify;
+          color: $textInput;
+          font-size: 1.2rem;
+          font-weight: 500;
+          margin-bottom: 1rem;
+        }
+        .label_radio {
+          margin-bottom: 1rem;
+          margin-left: 10px;
+        }
+      }
+      .div_button {
+        margin-bottom: 2rem;
+        .btn_next {
+          border-radius: 8px;
+          border: none;
+          font-size: 1rem;
+          font-weight: 500;
+          background-color: $primaryColor;
+          color: $colorWhite;
+          padding: 1.2rem 2rem;
+          margin-top: 1rem;
+          margin-left: 1rem;
+        }
+      }
+    }
+  }
+}
+
+.fixed_icon_valid {
+  display: block;
+  position: fixed;
+  bottom: 26%;
+  left: 19%;
+}

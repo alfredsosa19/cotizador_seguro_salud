@@ -1,0 +1,90 @@
+@import "variables.scss";
+@import "normalize.scss";
+@import "../../assets/fonts/fuente_open/OpensSans.scss";
+
+.font-weigth-bold {
+  font-weight: 500;
+}
+
+.justify-content-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.justify-content-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.justify-content-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.justify-content-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotating {
+  animation: rotating 1.5s linear infinite;
+  margin-left: 10px;
+}
+
+.icon {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.icon_bold {
+  margin-top: -5px;
+  width: 1.5em !important;
+  height: 1.5em !important;
+}
+
+.base-img {
+  background-image: url(../../assets/img/base.png);
+  background-position: initial;
+  background-size: 50% 80%;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.ligth-img {
+  background-image: url(../../assets/img/base.png);
+  background-position: initial;
+    background-size: 30% 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+@import "pages/login.scss";
+@import "pages/validData.scss";
+@import "pages/selectPlan";
+
+@import "components/input.scss";
+@import "components/checkbox.scss";
+@import "components/radioPlan.scss";

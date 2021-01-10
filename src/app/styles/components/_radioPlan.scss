@@ -1,0 +1,22 @@
+#id-checkplan [type="radio"] {
+  position: relative;
+  left: 6rem;
+}
+#id-checkplan {
+  border: 2px solid $borderInput;
+  width: 9rem;
+  margin: 0.5rem;
+  height: 10rem;
+  border-radius: 10px;
+  padding-left: 1.5rem;
+  padding-top: 0.5rem;
+  .plan {
+    margin: 0.5rem 0;
+    font-weight: 500;
+  }
+  .precioPlan {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+}

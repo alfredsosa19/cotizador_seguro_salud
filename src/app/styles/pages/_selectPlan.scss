@@ -1,0 +1,98 @@
+.div_cobertura {
+  margin-top: 2rem;
+  border: 2px solid $borderInput;
+  display: grid;
+  grid-template-rows: 5vh 55vh;
+  background-color: $borderInput;
+  border-radius: 5px;
+  .text_beneficios {
+    color: $colorText;
+    font-size: 1.2rem;
+    margin: auto;
+    font-weight: 500;
+  }
+  .grid_cobertura {
+    display: grid;
+    grid-template-rows: 35% 65%;
+    border-radius: 5px;
+    background-color: $colorWhite;
+    padding: 1rem;
+    .grid_plan {
+      display: grid;
+      grid-template-columns: 70% 30%;
+      margin: auto 0;
+      .text_cobertura {
+        font-size: 1.1rem;
+        font-weight: 500;
+        margin: 0.8rem 1.5rem;
+      }
+      .text_number {
+        font-size: 1.8rem;
+        font-weight: 500;
+        margin: 0.8rem 1.5rem;
+      }
+      .button_plan {
+        color: $colorWhite;
+        border: none;
+        padding: 0.2rem 0.5rem;
+        border-radius: 10px;
+        background-color: $colorGreen;
+        font-size: 0.8rem;
+        font-weight: 500;
+        margin: 0.2rem 1.5rem;
+      }
+      .line_vertical {
+        position: absolute;
+        margin-left: 26rem;
+        height: 7rem;
+      }
+      .div_img {
+        margin: auto;
+        .img_dinero {
+          width: 5rem;
+          height: 5rem;
+          margin: auto;
+        }
+      }
+    }
+    .line_horizontal {
+      position: absolute;
+      margin-top: 11rem;
+      margin-left: 1rem;
+      width: 36rem;
+    }
+    .div_list {
+      margin: 1.5rem 1.8rem;
+      .text_list {
+        font-size: 1rem;
+        margin: 1.3rem 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        .text-bold {
+          font-size: 1.5rem;
+          font-weight: 500;
+        }
+        .text_muted{
+          color:$borderInput;
+          text-decoration:line-through;
+        }
+      }
+    }
+  }
+}
+.div_servicios {
+  margin: 2rem 0;
+  line-height: 1.5rem;
+}
+
+.error_input {
+  width: 100%;
+  text-align: center;
+  color: #721c24;
+  background-color: #f8d7da;
+  padding: 8px;
+  border-color: #f5c6cb;
+  border-radius: 5px;
+  margin-top: 5px;
+}
